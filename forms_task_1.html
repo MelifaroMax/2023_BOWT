@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+		<title>Astrodroid market</title>
+		<link rel="stylesheet" type="text/css" href="css/catalog.css">
+		<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+
+        <script src="forms_task_1.js"></script>
+</head>
+
+<html>
+<body>
+
+    <div>
+        <form name="form1" action="https://www.bing.com/search?" id="UserEnter" target="_blank">
+            <p><input type="hidden"  name="q" value="MelifaroMax"></p>
+            <table cellspacing="0">
+                <tr>
+                    <th></th>
+                    <th>Модель</th>
+					<th>Фото</th>
+					<th>Характеристики</th>
+                    <th>Количество</th>
+					<th>Цена</th>
+                </tr>
+
+                <tr>
+                    <td><input id="model1" type="checkbox" name="select" onclick=calc()></td>
+					<td class="model">R2-D2</td>
+					<td><a class="galery" href="img/r2-d2.jpg"><img src="img/r2-d2.jpg" width="100"></a></td>
+					<td>Высота 0,96 метра<br>
+						Масса 32 килограмма<br>
+						Цвет сенсора Красный<br>
+						Оснащение: разъем для перезарядки энергии, ракетные ускорители, моторизованные вездеходные гусеницы, выдвижная третья нога, циркулярная пила, электропика, фузионный резак, базовая пила, голографический проектор, поднос с напитками (только на парусной барже)</td>
+					<td><input class="cost" type="number" name="model1_cost" value="0" size="1" onclick=calc()></td>
+                    <td><input class="price" type="text" name="model1_price" value="4000 кредитов" size="10" readonly></td>
+                </tr>
+
+                <tr>
+                    <td><input id="model2" type="checkbox" name="select" onclick=calc()></td>
+					<td class="model">R3-D</td>
+					<td><a class="galery" href="img/r3-d.jpg"> <img src="img/r3-d.jpg" width="100"></td>
+					<td>Высота: 0,96 метра<br>
+						Цвет датчика: Сложный пакет датчиков<br>
+						Блок датчика электромагнитного поля<br>
+						Радар<br>
+						Инфракрасный рецептор
+					</td>
+                    <td><input class="cost" type="number" name="model2_cost" value="0" size="1" onclick=calc()></td>
+					<td><input class="price"  type="text" name="model2_price" value="3800 кредитов" size="10" readonly></td>
+                </tr>
+
+                <tr>
+					<td><input id="model3" type="checkbox" name="select" onclick=calc()></td>
+					<td class="model">R2-5</td>
+					<td><a class="galery" href="img/r2-5.jpg"> <img src="img/r2-5.jpg" width="100"></td>
+					<td>Высота: 1 метр<br>
+						Оснащение: акустический сигнализатор, огнетушитель, голографический проектор/рекордер, выдвижная рабочая рука, выдвижной тяжелый захват, маленькая циркулярная пила, трехколесные ножки
+					</td>
+                    <td><input class="cost" type="number" name="model3_cost" value="0" size="1" onclick=calc()></td>
+					<td><input class="price"  type="text" name="model3_price" value="4700 кредитов" size="10" readonly></td>
+				</tr>
+
+                <tr>
+					<td><input id="model4" type="checkbox" name="select" onclick=calc()></td>
+					<td class="model">R8-B7</td>
+					<td><a class="galery" href="img/r8-b7.jpg"> <img src="img/r8-b7.jpg" width="100"></td>
+					<td>Высота: 0,96 метра<br>
+						Цвет сенсора: фиолетовый<br>
+						Цвет покрытия: фиолетовый, серый, желтый<br>
+						Оснащение: Пакет диагностики, компенсатор окружающей среды (вакуум), огнетушитель, эвристический процессор, внутреннее хранилище (2 кг), заблокированный доступ, магнитные ножки, голографический проектор/рекодер, ингибитор ржавчины, крепление для инструмента x4, инструментарий, сварочный лазер/резак
+					</td>
+                    <td><input class="cost" type="number" name="model4_cost" value="0" size="1" onclick=calc()></td>
+					<td><input class="price"  type="text" name="model4_price" value="4900 кредитов" size="10" readonly></td>
+				</tr>
+
+                
+				<tr>
+					<td colspan="5">Итого: <input id="sum" type="number" name="sum" value="0" size="15" readonly></input></td>
+				</tr>
+            </table>
+            
+            <p> Тип записи в файл:<select name="010_mode">
+                <OPTION value="a">a - дозаписать в файл</OPTION>
+                <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+            </select></p>
+        
+            <input type="hidden" name="function"  value="page">
+            <input type="hidden" name="page_id"  value="3">
+        
+            <p>
+                <input type="Reset"  name="Reset"  value="Обновить">
+                <input type="Submit" name="submit"  value="Отправить">
+            </p>
+        </form>
+    </div>
+    <div id="contacts">Если Вас заинтересовала какая-либо модель - <a href="contacts.html#form" title="Контакты" target="_self">оставьте заявку на заказ</a></div>
+</body>
+
+<pre>
