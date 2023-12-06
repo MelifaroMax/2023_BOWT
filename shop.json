@@ -1,92 +1,84 @@
 [
   {
     "id": "1",
-    "title": "Vally",
-    "vendor_code": "111",
-    "description": "",
-    "price": 1000,
-    "img": "valli.jpg"
+    "title": "qr-иллюстрация",
+    "vendor_code": "222",
+    "description": "qr-код под иллюстрацию",
+    "price": 500,
+    "img": "qr1h.png"
   },
   {
     "id": "2",
-    "title": "CAT",
-    "vendor_code": "222",
-    "description": "Описание 2",
-    "price": 2,
-    "img": "cat.jpg"
+    "title": "qr-ландшафт",
+    "vendor_code": "333",
+    "description": "qr-код в виде ландшафта",
+    "price": 500,
+    "img": "qr3h.png"
   },
   {
     "id": "3",
-    "title": "Avatar",
-    "vendor_code": "333",
-    "description": "Описание 3",
-    "price": 300,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_003.jpg"
-  },
-  {
-    "id": "4",
-    "title": "Яхта",
+    "title": "Разрушить",
     "vendor_code": "444e",
-    "description": "Описание 4",
-    "price": 1200,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_004.jpg"
+    "description": "Разрушить изображенное на фото",
+    "price": 300,
+    "img": "homeh1.png"
   }
   ,
   {
-    "id": "5",
-    "title": "Zooro",
+    "id": "4",
+    "title": "Архитектура",
     "vendor_code": "4445e",
-    "description": "Описание 6",
+    "description": "Уникальная архитектура",
     "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_005.jpg"
+    "img": "homeh2.png"
+  },
+  {
+    "id": "5",
+    "title": "Иконки",
+    "vendor_code": "4446e",
+    "description": "Иконки для соцсетей",
+    "price": 400,
+    "img": "anih1.png"
   },
   {
     "id": "6",
-    "title": "Wait",
-    "vendor_code": "4446e",
-    "description": "Описание 6",
-    "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_1.png"
+    "title": "Перенесем в аниме",
+    "vendor_code": "4447e",
+    "description": "Переделаем ваше фото в аниме",
+    "price": 1000,
+    "img": "anih3.png"
   },
   {
     "id": "7",
-    "title": "Bob",
-    "vendor_code": "4447e",
-    "description": "Описание 7",
-    "price": 700,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_2.png"
+    "title": "Нейроиллюстрация",
+    "vendor_code": "4448e",
+    "description": "Иллюстрации к играм",
+    "price": 600,
+    "img": "homeg3.png"
   },
   {
     "id": "8",
-    "title": "Товар 8",
-    "vendor_code": "4448e",
-    "description": "Описание 8",
-    "price": 800,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_3.png"
-  },
-  {
-    "id": "9",
-    "title": "Товар 9",
+    "title": "Нейро вписывание",
     "vendor_code": "444e",
-    "description": "Описание 9",
-    "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_4.png"
+    "description": "Вписывание существ в пространство",
+    "price": 700,
+    "img": "dinoh3.png"
   }
   ,
   {
-    "id": "10",
-    "title": "Товар 10",
+    "id": "9",
+    "title": "Создать инопланетянина",
     "vendor_code": "44410e",
-    "description": "Описание 10",
-    "price": 900,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_5.png"
+    "description": "Генерация всевозможных инопланетян",
+    "price": 500,
+    "img": "dinoh2.png"
   },
   {
-    "id": "11",
-    "title": "Товар 11",
+    "id": "10",
+    "title": "Создать динозавра",
     "vendor_code": "44411e",
-    "description": "Описание 1",
-    "price": 1100,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_6.png"
+    "description": "Генерация динозавров любых форм и размеров",
+    "price": 500,
+    "img": "dinoh1.png"
   }
 ]
